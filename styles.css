@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f8f8f8;
+}
+.book-library{
+	background-color:#ffffff;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	gap:1;
+}
+.book{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+.book img{
+	width:200px;
+}
+.Author{
+	color:#777777;
+}
+.Price{
+	background-color:#2ecc71;
+	color:white;
+	width:100%;
+	text-align:center;
+}
